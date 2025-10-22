@@ -3,7 +3,7 @@ name: Run npm command on push
 on:
   push:
     branches:
-      - main   # or any branch you want (e.g., 'master', 'develop')
+      - master
 
 jobs:
   run-npm:
