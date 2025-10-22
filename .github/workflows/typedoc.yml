@@ -35,4 +35,4 @@ jobs:
           git commit -m "chore: update TypeDoc docs" || echo "No changes to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_KEY: ${{ secrets.GITHUB_TOKEN }}
