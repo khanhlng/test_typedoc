@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "doc": "typedoc src/main.ts"
+    "doc1": "typedoc src/main.ts"
   },
   "devDependencies": {
     "typescript": "^4.6.4",

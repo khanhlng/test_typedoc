@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       - name: Generate TypeDoc
-        run: npm run doc
+        run: npm run doc1
 
       - name: Commit and push docs
         run: |

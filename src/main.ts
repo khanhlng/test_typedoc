@@ -11,6 +11,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
     <h1>${add(3, 4)}</h1>
+    <h1>${multiple(3, 4)}</h1>
     <h1>Vite + TypeScript</h1>
     <div class="card">
       <button id="counter" type="button"></button>
@@ -31,4 +32,14 @@ setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
  */
 export function add(a: number, b:number) {
   return a + b;
+}
+
+/**
+ * Multiply two numbers together.
+ * @param {number} a - The first number.
+ * @param {number} b - The second number.
+ * @returns {number} The product of a and b.
+ */
+export function multiple(a: number, b: number) {
+    return a * b;
 }
